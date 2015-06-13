@@ -1,7 +1,7 @@
 # The name of this site
 # This text displays in the back-office and
 # can be used in templates through the site.name global variable
-name: "intermezzo"
+name: "Intermezzo Bar + Cafe"
 
 # The site's subdomain
 # This option is for sites on multi-site engines
@@ -22,12 +22,12 @@ locales: [en]
 # This converts the server's time to the site's time zone in templates
 # The TimeZone class from Rail's ActiveSupport is used to interpret the string
 # Sample timezone strings: Tokyo, Beijing, Moscow, Cairo, Paris, Pacific Time (US & Canada)
-# timezone: Paris
+timezone: 'Pacific Time (US & Canada)'
 
 # For SEO purposes, sites may wish to add a relevant string to the <title> tag
 # And include <meta type="keywords"> and <meta type="description">
 # For this purpose you can set values for these variables here
 # They can be accessed in templates through the site.seo_title, site.meta_keywords, and site.meta_description variables
-seo_title: intermezzo
-meta_keywords: "some meta keywords"
-meta_description: "some meta description"
+seo_title: "Santa Barbara’s fun and vibrant wine space | Intermezzo Bar + Café"
+meta_keywords: "Intermezzo,Bar,Cafe,Santa Barbara, CA,California,food,dining,drinks,cocktails,bar and cafe,wine"
+meta_description: "Santa Barbara's Intermezzo Bar + Café is a fun and vibrant space, designed as a place to meet for a quick flatbread, glass of wine from our innovative and green tap system or cocktail before dinner."
