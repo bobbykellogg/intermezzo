@@ -1,0 +1,6 @@
+/.bundle
+/config/deploy.yml
+/log
+
+# OSX Items
+.DS_Store
