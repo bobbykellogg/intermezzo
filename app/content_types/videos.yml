@@ -1,0 +1,70 @@
+# Human readable name of this type
+name: Videos
+
+# Lowercase, underscored handle used to access this type
+slug: videos
+
+# Explanatory text displayed in the back-office
+description: A description of the content type for the editors
+
+# Slug of field used to identify entries by default, such as the title
+label_field_name: title
+
+# Valid values: manually, created_at, updated_at, or the slug of any field
+order_by: manually
+
+# Valid values: asc (ascending) and desc (descending). Set to asc by default.
+# order_direction: asc
+
+# Specify a field slug to group entries by that field in the back-office.
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+# public_submission_enabled: false
+
+# Array of emails to be notified of new entries made with the public API
+# public_submission_accounts: ['john@example.com']
+
+# A list describing each field
+fields:
+- service:
+    label: Service
+    type: select
+    required: true
+    localized: false
+    select_options: ['Vimeo', 'YouTube']
+
+- video_id:
+    label: Video
+    type: string
+    required: true
+    hint: Explanatory text displayed in the back office
+    localized: false
+
+- title:
+    label: Title
+    type: string
+    required: true
+    localized: false
+
+- description:
+    label: Description
+    type: string
+    required: false
+    localized: false
+
+- thumbnail:
+    label: Thumbnail
+    type: file
+    required: false
+    hint: Image will be resized to 136 x 79
+    localized: false
+
+- galleries:
+    label: Galleries
+    type: many_to_many
+    required: false
+    localized: false
+    class_name: galleries
+    inverse_of: videos
+    ui_enabled: true

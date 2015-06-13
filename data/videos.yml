@@ -1,0 +1,28 @@
+# - "Sample 1":
+#     service: null # Use the value of a select option defined in the app/content_types/Videos.rb file.
+#     video_id: "At hic ipsum similique rerum voluptas."
+#     description: "Aperiam quisquam numquam rerum et voluptatum molestiae."
+#     thumbnail: null # Path to a file in the public/samples folder or to a remote and external file.
+#     galleries: [] # Array of target entry slugs
+#
+# - "Sample 2":
+#     service: null # Use the value of a select option defined in the app/content_types/Videos.rb file.
+#     video_id: "Iusto saepe sed magni excepturi dolores omnis."
+#     description: "Ipsa quia quam et eos doloribus."
+#     thumbnail: null # Path to a file in the public/samples folder or to a remote and external file.
+#     galleries: [] # Array of target entry slugs
+#
+# - "Sample 3":
+#     service: null # Use the value of a select option defined in the app/content_types/Videos.rb file.
+#     video_id: "Blanditiis maiores delectus error odio."
+#     description: "In ut modi inventore temporibus incidunt in consectetur qui."
+#     thumbnail: null # Path to a file in the public/samples folder or to a remote and external file.
+#     galleries: [] # Array of target entry slugs
+#
+# - "Sample 4":
+#     service: null # Use the value of a select option defined in the app/content_types/Videos.rb file.
+#     video_id: "Dolor expedita fugiat totam enim culpa dolores sequi."
+#     description: "Et quas repudiandae qui expedita nesciunt iste excepturi."
+#     thumbnail: null # Path to a file in the public/samples folder or to a remote and external file.
+#     galleries: [] # Array of target entry slugs
+#
