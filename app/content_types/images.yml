@@ -8,7 +8,7 @@ slug: images
 description: Images displayed in the galleries
 
 # Slug of field used to identify entries by default, such as the title
-label_field_name: image
+label_field_name: title
 
 # Valid values: manually, created_at, updated_at, or the slug of any field
 order_by: manually

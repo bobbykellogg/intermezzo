@@ -1,33 +1,12 @@
 ---
 title: Location
-
-# true if the page is included in the menu
 listed: true
-# true if the page is published
 published: true
-
-# true if the page can be used as a layout for new pages created by the editors
-# is_layout: true
-
-# position among sibling pages
-# position: 1
-
-# sets a redirection to the given url (301)
-# redirect_url: "<url to a page or to a remote url>"
-
-# content type that this page is templatizing
-# content_type: "<slug of one of the content types>"
-
-# editable_elements:
-#   'some_block/some_slug': "<text>"
-#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
 ---
 {% extends parent %}
 
 {% block banner %}
-
   <div id="hero">
-    <iframe width="1000" height="580" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;sig=5Ns&amp;ie=UTF8&amp;q=intermezzo+restaurant&amp;fb=1&amp;gl=us&amp;cid=0,0,5057576225512875127&amp;t=m&amp;ll=34.421107,-119.698963&amp;spn=0.005753,0.021436&amp;z=16&amp;iwloc=&amp;output=embed"></iframe>
+    <iframe width="1000" height="580" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps?hl=en&amp;sig=5Ns&amp;ie=UTF8&amp;q=intermezzo+restaurant&amp;fb=1&amp;gl=us&amp;cid=0,0,5057576225512875127&amp;t=m&amp;ll=34.421107,-119.698963&amp;spn=0.005753,0.021436&amp;z=16&amp;iwloc=&amp;output=embed"></iframe>
   </div>
-  
 {% endblock %}

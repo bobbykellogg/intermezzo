@@ -19,7 +19,7 @@ published: true
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script src="http://use.typekit.com/ziw5pce.js"></script>
+    <script src="//use.typekit.com/ziw5pce.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     {% inline_editor %}
   </head>
@@ -60,7 +60,7 @@ published: true
 
         <h1>Intermezzo Bar + Café</h1>
         {% block content %}
-          {% editable_long_text 'content' %}{{ content }}{% endeditable_long_text %}
+          {% editable_long_text 'content' %}{% endeditable_long_text %}
         {% endblock %}
 
         {% block latest_news %}

@@ -1,6 +1,7 @@
 /.bundle
 /config/deploy.yml
 /log
+.sass-cache/
 
 # OSX Items
 .DS_Store

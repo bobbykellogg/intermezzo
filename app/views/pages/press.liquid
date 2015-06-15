@@ -10,7 +10,7 @@ published: true
 # is_layout: true
 
 # position among sibling pages
-# position: 1
+position: 1
 
 # sets a redirection to the given url (301)
 # redirect_url: "<url to a page or to a remote url>"
@@ -26,21 +26,18 @@ published: true
 
 {% block content %}
   <h1>Intermezzo Bar + Café</h1>
-  {% editable_long_text 'content' %}{{ content }}{% endeditable_long_text %}
+  {% editable_long_text 'content' %}{% endeditable_long_text %}
 
-
-  <div id="articles">
+  <section id="articles">
     {% for article in contents.articles %}
     <article>
-      <h2>{{ article.date | date: "%m.%d.%Y" }} - {% if article.source != '' %}{{ article.source }}, {% endif %}<em>{{ article.title }}</em></h2>
+      <h2>{{ article.date | date: "%m.%d.%Y" }} - {% if article.source != "" %}{{ article.source }}, {% endif %}<em>{{ article.title }}</em></h2>
       <div>
         {{ article.body }}
         {% if article.url != '' %}<p class="more-link"><a href="{{ article.url }}" rel="external">Read more...</a></p>{% endif %}
       </div>
     </article>
     {% endfor %}
-    {% if contents.articles.size == 0 %}
-    <p>There are currently no articles published.</p>
-    {% endif %}
-  </div>
+  </section>
+  
 {% endblock %}
